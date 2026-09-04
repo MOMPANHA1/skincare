@@ -1,0 +1,244 @@
+body{
+    margin: 0;
+    padding: 0;
+    font-family: "Poppins", sans-serif;
+}
+#nav-header{
+    background-color: #ffff;
+    color: #0000;
+    padding: 20px;
+    display: flex;
+    justify-content: space-evenly;
+}
+#logo{
+    font-size: 24px;
+    font-weight: bold;
+    cursor: pointer;
+}
+/* #nav-menu{
+    background-color: aqua;
+} */
+.nav-link{
+    margin-left: 20px;
+    cursor: pointer;
+}
+.social{
+    color: #000;
+}
+.social span{
+    margin-right: 10px;
+    cursor: pointer;
+}
+.container-fluid {
+    margin-top: 30px
+}
+
+.carousel-item img{
+    height:500px;
+}
+#blog{
+    width: 100%;
+    height: 100vh;
+    padding: 30px 400px;
+}
+#blog h6{
+    text-align: center;
+    margin-bottom: 20px;
+}
+.tb-shop img{
+    width: 100px;
+    height: 100px;
+    margin-left: 20px;
+    border-radius: 20px;
+}
+.blog-name td{
+    padding: 20px 20px 20px 40px;
+}
+.blog-introduct{
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 20px;
+}
+.blog-intro-left{
+padding: 30px;
+}
+.blog-intro-left img{
+    width: 350px;
+    height: 300px;
+    border-radius: 20px;
+}
+.blog-intro-right span{
+    font-size: 10px;
+}
+.blog-intro-right{
+    padding: 30px 0 30px 30px;
+}
+.blog-intro-right button{   
+    margin-top: 10px;
+    background-color: #00f2ff;
+    color: #ffffff;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 5px;
+    cursor: pointer;
+}
+/* card */
+.blog-card .row{
+    padding-left: 50px;
+}
+.blog-card .card{
+    background-color: white;
+    cursor: pointer;
+    border-radius: 10px;
+    overflow: hidden;
+}
+.card-header{
+    display: block;
+    opacity: 0;
+    position: absolute;
+    top: 8%;
+    margin-left: 0;
+    width: 70px;
+}
+.blog-card .card:hover .card-header{
+    opacity: 1;
+    margin-left: 5%;
+    transition: 0.5s ease;
+}
+.card-header i  img{
+    background-color: white;
+    border-radius: 5px;
+    width: 30px;
+    height: 30px;
+    font-size: 10px;
+    padding: 7px;
+    margin: -20%;
+    margin-bottom: 5%;
+    cursor: pointer;
+}
+.card-header .btn-primary{
+    background-color: transparent !important;
+    border: none;
+}
+.blog-card h4{
+    color: #2253a1;
+    text-align: center;
+}
+.blog-card .body .fa-star{
+ color: yellow;
+}
+.card-body p{
+    text-align: center;
+    color: #7eabf2;
+}
+.card-body h6 b{
+    color: red;
+}
+.card-body span button{
+    float: right;
+    width: 100px;
+    height: 35px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 5px 10px;
+    color: #2253a1;
+    clear: both;
+}
+.card-body span button:hover{
+    background-color: rgb(2, 179, 255);
+    color: #e1f4f8;
+}
+.footer{
+    background-color: #2253a1;
+    color: #ffffff;
+    padding: 50px 0;
+    text-align: center;
+    height: 300px;
+    margin-top: 300px;
+}
+.footer-nav{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+}
+.footer-nav li{
+    list-style-type: none;
+}
+.footer-nav a{
+    color: #ffff;
+    text-decoration: none;
+    margin-right: 20px;
+}
+.footer-nav a:hover{
+    color: #00f2ff;
+    transition: 0.5s ease;
+}
+.social-media span{
+    border: 2px solid #ffff;
+    border-radius: 50%;
+    padding: 7px;
+    margin-left: 10px;
+    cursor: pointer;
+}
+.social-media i:hover{
+    color: #00f2ff;
+    transition: 0.5s ease;
+}
+.social-media i{
+    font-size: 20px;
+    color: #ffff;
+    padding-left: 5px;
+    padding-bottom: 8px;
+
+}
+.footer p{
+    margin-top: 20px;
+}
+
+.contact {
+    margin-top: 5 0px;
+    width: 90%;
+    margin-left: 5%;
+  }
+  .contact #btn-contact {
+    margin-left: 500px;
+    width: 150px;
+    height: 30px;
+    border-radius: 20px;
+    border: 1px solid gray;
+    color: #00b98e;
+    margin-bottom: 20px;
+  }
+  .contact h2 {
+    text-align: center;
+  }
+  .contact #info {
+    margin-top: 20px;
+    width: 100%;
+    justify-content: space-between;
+    display: flex;
+    margin-bottom: 15px;
+  }
+  .contact #yname {
+    margin-right: 1%;
+    height: 60px;
+  }
+  .contact #yemail {
+    margin-left: 1%;
+    height: 60px;
+  }
+  .contact #select {
+    height: 60px;
+    margin-bottom: 15px;
+  }
+  .contact #area {
+    height: 150px;
+    margin-bottom: 15px;
+  }
+  .contact #btn-send {
+    height: 60px;
+    background-color: #00b98e;
+    color: white;
+  }
+  
