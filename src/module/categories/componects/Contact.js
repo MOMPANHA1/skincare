@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom';
 
 const Contact = () => {
   return (
@@ -6,7 +7,7 @@ const Contact = () => {
       <div className='contact'>
             <button id='btn-contact'>Contact Us</button>
             <h2 data-aos="fade-up" data-aos-duration="1500">If You Have Any Query, Please FeelbspFree Contact Us</h2>
-            <p data-aos="fade-up" data-aos-duration="1500">The contact form is currently inactive. Get a functional and working contact form with Ajax PHP in a few minutes. Just copy and paste the files, add a little <span><a href='#'>Download Now.</a></span></p>
+            <p data-aos="fade-up" data-aos-duration="1500">The contact form is currently inactive. Get a functional and working contact form with Ajax PHP in a few minutes. Just copy and paste the files, add a little <span><Link to='/contact'>Download Now.</Link></span></p>
             <form data-aos="fade-up" data-aos-duration="1500">
                 <div id='info'>
                   <input id='yname' type='text'class="form-control" placeholder='Your Name'/>

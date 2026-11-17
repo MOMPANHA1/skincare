@@ -50,12 +50,12 @@ const Blog = () => {
       <h6>Shop By categories</h6>
       <table className='tb-shop'>
         <tr>
-          <td><img src={p1} /></td>
-          <td><img src={p3} /></td>
-          <td><img src={p4} /></td>
-          <td><img src={p5} /></td>
-          <td><img src={p2} /></td>
-          <td><img src={p6} /></td>
+          <td><img src={p1} alt="Cleansers" /></td>
+          <td><img src={p3} alt="Moisturizers" /></td>
+          <td><img src={p4} alt="Serums" /></td>
+          <td><img src={p5} alt="Sunscreens" /></td>
+          <td><img src={p2} alt="Exfoliants" /></td>
+          <td><img src={p6} alt="Mineral" /></td>
         </tr>
         <tr className='blog-name'>
           <td>Cleansers</td>
@@ -67,7 +67,7 @@ const Blog = () => {
         </tr>
       </table>
       <div className='blog-introduct'>
-        <div className='blog-intro-left'><img src={p7}/></div>
+        <div className='blog-intro-left'><img src={p7} alt="Welcome to Skincare Store" /></div>
         <div className='blog-intro-right'>
           <span>WELCOME TO SKINCARE STORE</span>
           <h3>Our Commitment To Sustainability</h3>

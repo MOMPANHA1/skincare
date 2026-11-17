@@ -1,6 +1,6 @@
 import React from 'react'
 import "../src/assets/css/All.css"
-import { BrowserRouter, Navigate, Route, Routes, Link } from "react-router-dom";
+import { BrowserRouter, Navigate, Route, Routes } from "react-router-dom";
 import Layout from './module/categories/componects/Layout';
 import Deshboard from './module/categories/componects/Deshboard';
 import Blog from './module/categories/componects/Blog';
